@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<form method="POST">
+  {% csrf_token %}
+  <h1>WARNING!!</h1>
+  <H6>You are about to delete this file.To proceed click SUBMIT.</H6>
+  <input type="submit">
+{% endblock  %}
+
+
+</form>
